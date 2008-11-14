@@ -3,6 +3,7 @@ abstract: 'Yet another poco http client with twist like deferred interface.'
 author:
   - 'Daisuke Murase <typester@cpan.org>'
 build_requires:
+  HTTP::Request::Common: 0
   Test::More: 0
 distribution_type: module
 generated_by: 'Module::Install version 0.770'
@@ -21,4 +22,4 @@ requires:
   POE::Component::Client::HTTP: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.01001
