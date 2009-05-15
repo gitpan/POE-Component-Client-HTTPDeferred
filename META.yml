@@ -3,10 +3,13 @@ abstract: 'Yet another poco http client with twist like deferred interface.'
 author:
   - 'Daisuke Murase <typester@cpan.org>'
 build_requires:
+  ExtUtils::MakeMaker: 6.42
   HTTP::Request::Common: 0
   Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.770'
+generated_by: 'Module::Install version 0.85'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,9 +20,9 @@ no_index:
     - inc
     - t
 requires:
-  Moose: 0
+  Any::Moose: 0
   POE: 0
   POE::Component::Client::HTTP: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01001
+version: 0.02
